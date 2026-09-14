@@ -1,6 +1,6 @@
 # Pallavi Pro Max
 
-Design a premium, futuristic dark-mode mobile app UI for a Smart LPG Cylinder Monitoring Platform. The design should feel like a production-ready product from Apple, Tesla, Google Nest, or Nothing. Use matte black (#111111), graphite (#1C1C1E), electric blue (#3B82F6), emerald green (#22C55E), amber (#F59E0B), and red (#EF4444). Use SF Pro Display typography, rounded 24–32 px corners, glassmorphism, soft shadows, minimal icons, clean spacing, premium gradients, subtle micro-interactions, and realistic 3D illustrations.
+this is my GasAware product's app interface, the production code is named after my beloved (i'm losing her)
 
 Screens
 
@@ -269,25 +269,8 @@ Logout
 
 Design Style
 
-Premium, clean, minimalist, futuristic, investor-grade UI with Apple-level polish. Include realistic 3D LPG cylinder illustrations, floating action buttons, smooth charts, glassmorphism cards, elegant animations, and subtle blue neon accents. The app should look launch-ready for households, restaurants, hotels, and apartment communities, conveying trust, safety, intelligence, and modern engineering.
+Premium, clean, minimalist, futuristic, investor-grade UI with Apple-level polish. Include realistic 3D LPG cylinder illustrations, floating action buttons, smooth charts, glassmorphism cards, elegant animations, and subtle blue neon accents.
 
-This project was built with [Lovable](https://lovable.dev).
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6fa335bb-64e9-41a4-a2cd-d4a79111643a).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
 npm run dev
 ```
