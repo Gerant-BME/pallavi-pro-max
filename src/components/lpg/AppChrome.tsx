@@ -5,11 +5,12 @@ import type { ReactNode } from "react";
 
 export function Screen({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
-    <div className={`flex flex-1 flex-col overflow-y-auto overscroll-contain pb-28 ${className}`}>
+    <div className={`min-h-0 flex-1 overflow-y-auto overscroll-contain pb-28 ${className}`}>
       {children}
     </div>
   );
 }
+
 
 export function AppHeader({
   title,

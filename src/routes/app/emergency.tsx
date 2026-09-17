@@ -22,7 +22,7 @@ function Emergency() {
     { id: "s4", icon: <DoorOpen className="h-4 w-4" />, label: "Evacuate to open area" },
   ];
   return (
-    <div className="flex flex-1 flex-col bg-[radial-gradient(circle_at_top,oklch(0.4_0.2_27_/_0.5),transparent_60%)]">
+    <div className="flex min-h-0 flex-1 flex-col overflow-hidden bg-[radial-gradient(circle_at_top,oklch(0.4_0.2_27_/_0.5),transparent_60%)]">
       <AppHeader title="Emergency" back="/app" />
       <Screen className="px-5 pt-2 space-y-4">
         <div className="rounded-3xl border border-[color:var(--danger)]/40 bg-[color:var(--danger)]/15 p-5 flex items-center gap-4 animate-pulse-ring">
